@@ -37,8 +37,7 @@ class Morse:
                 self.dot()
             elif i == '-':
                 self.dash()
-
-            if i == '/':
+	    elif i == '/':
                 sleep(self.dot_delay)
             elif i == ' ':
                 sleep(self.dash_delay)
